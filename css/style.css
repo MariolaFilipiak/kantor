@@ -1,0 +1,16 @@
+.html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Playfair Display', serif;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 75px 35px 75px 35px;
+    background-image:url("../images/background1.jpg");
+}

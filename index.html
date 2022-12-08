@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <title>Kantor</title>
+    <meta property="og:image" content="images/przelicznikwalut2.png">
+    <link rel="icon" href="images/ikona.jpg">
+</head>
+
+<body class="body">
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Przelicznik walut</legend>
+            <p>
+                <label>
+                    <span class="form__labelText"> Mam:</span>
+                    <input class="form__amount js-amount" name="amount" type="number" min="1" step="any"
+                        placeholder="Wpisz kwotę do przewalutowania" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText">Wymieniam z:</span>
+                    <select class="form__currentFrom js-currentFrom" name="currentFrom">
+                        <option class="form__labelOption" value="PLN">PLN (Złoty polski)</option>
+                        <option class="form__labelOption" value="EUR">EUR (Euro)</option>
+                        <option class="form__labelOption" value="USD">USD (Dolar amerykański)</option>
+                        <option class="form__labelOption" value="NOK">NOK (Korona norweska)</option>
+                        <option class="form__labelOption" value="CHF">CHF (Frank szwajcarski)</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText"> Wymieniam na:</span>
+                    <select class="form__currentTo js-currentTo" name="currentTo">
+                        <option class="form__labelOption" value="PLN">PLN (Złoty polski)</option>
+                        <option class="form__labelOption" value="EUR">EUR (Euro)</option>
+                        <option class="form__labelOption" value="USD">USD (Dolar amerykański)</option>
+                        <option class="form__labelOption" value="NOK">NOK (Korona norweska)</option>
+                        <option class="form__labelOption" value="CHF">CHF (Frank szwajcarski)</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText"> Otrzymam:</span>
+                    <input class="form__labelResult js-result" name="result" readonly>
+                </label>
+            </p>
+            <p>
+                <input class="form__button js-button" type="submit" value="Przelicz">
+            </p>
+            <p class="form__paragraph">
+                Aktualny kurs z dnia 7.11.2022
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>

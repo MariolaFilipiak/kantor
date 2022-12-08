@@ -1,0 +1,74 @@
+.form__fieldset {
+    padding: 25px;
+    background-color: hsl(0, 0%, 77%);
+    display: inline-block;
+    max-width: 100%;
+}
+
+.form__legend {
+    border: none;
+    background-color: #343434;
+    color: #eee;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.form__amount {
+    width: 400px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form__labelText {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    font-size: 20px;
+    padding: 30px;
+    margin-right: 50px;
+}
+
+.form__labelResult {
+    display: inline-block;
+    width: 400px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form__button {
+    border: none;
+    background-color: #343434;
+    color: #eee;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 329px;
+}
+
+.form__button:hover {
+    background-color: hsl(180, 2%, 30%);
+    color: #eee;
+}
+
+.form__currentTo {
+    width: 400px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.form__currentFrom {
+    width: 400px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.form__paragraph {
+    text-align: center;
+    padding: 5px;
+}
