@@ -1,6 +1,6 @@
 # Przelicznik walut
 
-![gif](https://github.com/MariolaFilipiak/kantor/blob/main/images/GIF.gif?raw=true)
+![gif](https://github.com/MariolaFilipiak/kantor/images/css/gif.gif/GIF.gif)
 
 ## Demo
 https://mariolafilipiak.github.io/kantor/
